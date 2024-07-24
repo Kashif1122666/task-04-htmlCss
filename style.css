@@ -363,3 +363,14 @@ footer img{
 }
   
 }
+button:hover{
+    background-color: aliceblue;
+    color: black;
+}
+button:active{
+    color: white;
+    background-color: black;
+}
+nav a:hover{
+    background-color:white ;
+}
