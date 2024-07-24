@@ -1,0 +1,365 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+figure{
+    display: flex;
+    justify-content: center;
+    margin: -20px;
+}
+figure img{
+    width: 200px;
+}
+
+/* nav bar */
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    position: sticky;
+    top: 0;
+    background-color: gray;
+    padding: 20px ;
+   
+}
+nav a{
+    color: rgb(12, 12, 221);
+    text-decoration: none;
+    font-size: xx-large;
+}
+.home{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px;
+
+}
+.home div{
+    padding: 140px;
+}
+.home img{
+    margin-left: 20px;
+    width: 500px;
+    margin-top: 20px;
+}
+.home h2{
+    font-size: 40px;
+    font-weight: 800;
+}
+.home input{
+    width: 250px;
+    height: 50px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+/* section */
+section{
+    text-align: center;
+    padding-bottom: 20px ;
+    padding-top: 50px;
+}
+section p{
+    padding-top: 30px;
+}
+
+
+
+
+
+/* for moblie apps */
+@media(max-width: 420px){
+     figure{
+        margin-top: -15px;
+     }
+     figure img{
+        width: 100px;
+     }
+     /* home */
+.home{
+    margin-right: 10px;
+}
+.home div{
+    padding: 70px;
+    padding-left: 40px;
+}
+.home img{
+    width: 180px;
+    margin-left: -100px;
+    margin-top: 10px;
+}
+.home h2{
+    font-size: 10px;
+}
+.home input{
+    width: 100px;
+    height: 20px;
+    margin-top: 7px;
+}
+/* section */
+section{
+    padding-bottom: 10px;
+    padding-top: 30px;
+}
+section h3{
+    font-size:medium;   
+}
+section p{
+    font-size: small;
+    padding-top: 10px;
+}
+}
+/* best sellers */
+.best-sellers{
+    padding-top: 20px;
+}
+.best-sellers h1{
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    text-align: center;
+    margin-bottom: -90px;
+    margin-top: 70px;
+}
+.group-cards{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 160px;
+    padding-top: 160px;
+    flex-direction: row;
+    margin-bottom: -240px;
+    
+}
+.books{
+    display: block;
+    height: 390px ;
+    border: 2px solid black;
+    background-color: white;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    padding: 10px;
+    padding-right: -20px;
+    margin-bottom: 0px;
+    
+}
+.books img{
+    width: 200px;
+    height: 250px;
+    border-radius: 5px;
+    filter: opacity(0.9);
+    margin-top: 10px;
+    margin-bottom: 40px;
+    
+}
+.group-cards h3{
+    position: relative;
+    top: -50px;
+    text-align: center;
+    padding: 10px;
+    font-weight: bolder;
+    font-size: larger;
+    
+}
+.books button{
+   background-color:black ;
+   color: white;
+   width: 10vw;
+   height: 7vh;
+   display: block;
+   margin: 0 auto;
+   position: relative;
+   top: -50px;
+   border-radius: 10px;
+}
+/* books collections */
+
+.books-collections{
+   display: flex;
+   margin-top: 120px ;
+   margin-bottom: 20px;
+   justify-content: center;
+   justify-content: space-evenly;
+}
+.books-collections h5{
+    position: relative;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 30px;
+    font-size: x-large;
+}
+.books-collections .card{
+   width: 400px;
+   height: 500px;
+   padding: 30px;
+   background-color: azure;
+   margin: 10px;
+   border: 1px solid blue;
+}
+.card img{
+    width: 225px;
+    height: 250px;
+}
+.card .card-body{
+    background-color: rgb(130, 219, 243);
+    color: aliceblue;
+    border: 3px solid white;
+    border-radius: 5px;
+    height: 125px ;
+    width: 225px;
+}
+.card-body h5{
+  background-color: rgb(99, 226, 116);   
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+  height: 90px;
+  margin-bottom: 10px;
+  padding-top: 20px;
+  padding-left: 0%;
+}
+.books-collections button{
+    background-color: black;
+    color: white;
+    height: 7vh;
+    width: 10vw;
+    display: block;
+    margin: 0 auto;
+    border: none;
+    padding-top:10 ;
+    margin-bottom: 10px;
+    position: relative;
+   border-radius: 10px;
+}
+.bestbookstitle h1{
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    text-align: center;
+    margin-bottom: -90px;
+    margin-top: 180px;
+}
+.connect{
+    display: flex;
+    justify-content: space-evenly;
+
+    margin-top: 50px;
+    background-color: aliceblue;
+    width: 180px;
+    display: inline;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+.connect h3{
+    padding: bottom 20px; ;
+    background-color: antiquewhite;
+    margin-top: 100px;
+}
+.connect img{
+    width: 100px;
+    padding: 10px 10px;
+    height: 100px;
+    margin: 0 80px;
+       
+}
+footer{
+    margin-top:60px ;
+    display: flex;
+    justify-content: space-evenly;
+}
+footer p{
+    font-size: medium;
+} 
+footer  :first-child{
+    font-size: large;
+}
+footer div a{
+  color: black;
+  display: block;
+  font-size: medium;
+}
+footer img{
+    width: 15%;
+    margin-top: 20px;
+    height: 15%;
+}
+@media(max-width:800px){
+   .books-collections{
+    flex-direction: column;
+   }
+   .home{
+    flex-direction: column;
+   }
+   .group-cards{
+    flex-direction: column;
+   }
+   .connect{
+    background-color: aliceblue;
+}
+.connect h3{
+    font-size: medium;
+    margin-top:-20px ;
+}
+.connect img{
+    width: auto;
+} 
+footer p{
+    font-size: 2vw;
+}
+footer div  :first-child{
+    font-size: 2vw;
+}
+footer div a{
+    font-size: 1.5vw;
+}
+footer img{
+    visibility: none;
+}
+}
+.copyright{
+    margin-top: 70px;
+    text-align: center;
+
+}
+.copyright p{
+    color: grey;
+    font-size: medium;
+}
+@media(max-width: 900px){
+  .home img{
+    margin-left:20px ;
+    width: 350px;
+    margin-top: 20px;
+
+  }
+  .home h2{
+    font-size: 30px;
+    font-weight: 700;
+}
+.group-cards{
+    display: grid;
+    justify-content: space-evenly;
+}
+.books{
+    margin-bottom: 10px;
+}
+.books button{
+    width: 15vw;
+    height: 7vh;
+}
+.books-collections{
+    display: grid;
+}
+.books-collections .card-body{
+    font-size:1.5vh ;
+    padding-top: 10px;
+
+}footer p{
+ font-size: 1vw;  
+}
+footer div p{
+    font-size: 1vw;
+}
+footer img{
+    width: 40px;
+}
+  
+}
